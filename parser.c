@@ -11,7 +11,7 @@ static Token nexttk(){
 }
 static void error_unexpected(Token t){
     if(t.token==T_EOF){
-        printf("%d:fim de arquivo não esperado.\n", t.linha);
+        printf("%d:fim de arquivo nao esperado.\n", t.linha);
     } else {
         printf("%d:token nao esperado [%s].\n", t.linha, t.lexema);
     }
