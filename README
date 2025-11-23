@@ -1,0 +1,34 @@
+# 🖥️ Analisador Sintático MicroPascal  
+Projeto acadêmico — Linguagens Formais e Autômatos / Compiladores  
+Aluno: **Myguel Arcanjo**
+
+---
+
+## 📌 Descrição do Projeto
+
+Este projeto implementa um **analisador sintático para a linguagem MicroPascal**, utilizando a técnica de **descida recursiva**, conforme especificação do trabalho acadêmico.
+
+O sistema contém:
+
+- **Analisador Léxico:** identifica tokens como palavras reservadas, operadores, números e identificadores.  
+- **Analisador Sintático:** implementado com funções recursivas seguindo a gramática fornecida.  
+- **CasaToken():** valida tokens e exibe mensagens de erro no formato exigido.  
+- **AST (Árvore Sintática):** é construída durante o parsing e exibida em formato hierárquico.
+
+---
+
+## 📂 Estrutura do Projeto
+
+
+---
+
+## ⚙️ Compilação
+- **gcc -c token.c**
+- **gcc -c lexer.c**
+- **gcc -c ast.c**
+- **gcc -c parser.c**
+- **gcc -c main.c**
+- **gcc -o analisador.exe token.o lexer.o ast.o parser.o main.o**
+
+
+
